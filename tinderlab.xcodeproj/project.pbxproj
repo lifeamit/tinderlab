@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F873231BAC9FB4006F2F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F873221BAC9FB4006F2F4A /* main.m */; };
+		F9F873261BAC9FB4006F2F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F873251BAC9FB4006F2F4A /* AppDelegate.m */; };
+		F9F873291BAC9FB4006F2F4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F873281BAC9FB4006F2F4A /* ViewController.m */; };
+		F9F8732C1BAC9FB4006F2F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F8732A1BAC9FB4006F2F4A /* Main.storyboard */; };
+		F9F8732E1BAC9FB4006F2F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F8732D1BAC9FB4006F2F4A /* Assets.xcassets */; };
+		F9F873311BAC9FB4006F2F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F8732F1BAC9FB4006F2F4A /* LaunchScreen.storyboard */; };
+		F9F8733C1BAC9FB4006F2F4A /* tinderlabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F8733B1BAC9FB4006F2F4A /* tinderlabTests.m */; };
+		F9F873471BAC9FB4006F2F4A /* tinderlabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F873461BAC9FB4006F2F4A /* tinderlabUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F873381BAC9FB4006F2F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F873161BAC9FB4006F2F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F8731D1BAC9FB4006F2F4A;
+			remoteInfo = tinderlab;
+		};
+		F9F873431BAC9FB4006F2F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F873161BAC9FB4006F2F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F8731D1BAC9FB4006F2F4A;
+			remoteInfo = tinderlab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9F8731E1BAC9FB4006F2F4A /* tinderlab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderlab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F873221BAC9FB4006F2F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9F873241BAC9FB4006F2F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9F873251BAC9FB4006F2F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9F873271BAC9FB4006F2F4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9F873281BAC9FB4006F2F4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9F8732B1BAC9FB4006F2F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F8732D1BAC9FB4006F2F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F873301BAC9FB4006F2F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9F873321BAC9FB4006F2F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F873371BAC9FB4006F2F4A /* tinderlabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderlabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F8733B1BAC9FB4006F2F4A /* tinderlabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tinderlabTests.m; sourceTree = "<group>"; };
+		F9F8733D1BAC9FB4006F2F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F873421BAC9FB4006F2F4A /* tinderlabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderlabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F873461BAC9FB4006F2F4A /* tinderlabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tinderlabUITests.m; sourceTree = "<group>"; };
+		F9F873481BAC9FB4006F2F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F8731B1BAC9FB4006F2F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F873341BAC9FB4006F2F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F8733F1BAC9FB4006F2F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F873151BAC9FB4006F2F4A = {
+			isa = PBXGroup;
+			children = (
+				F9F873201BAC9FB4006F2F4A /* tinderlab */,
+				F9F8733A1BAC9FB4006F2F4A /* tinderlabTests */,
+				F9F873451BAC9FB4006F2F4A /* tinderlabUITests */,
+				F9F8731F1BAC9FB4006F2F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F8731F1BAC9FB4006F2F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F8731E1BAC9FB4006F2F4A /* tinderlab.app */,
+				F9F873371BAC9FB4006F2F4A /* tinderlabTests.xctest */,
+				F9F873421BAC9FB4006F2F4A /* tinderlabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F873201BAC9FB4006F2F4A /* tinderlab */ = {
+			isa = PBXGroup;
+			children = (
+				F9F873241BAC9FB4006F2F4A /* AppDelegate.h */,
+				F9F873251BAC9FB4006F2F4A /* AppDelegate.m */,
+				F9F873271BAC9FB4006F2F4A /* ViewController.h */,
+				F9F873281BAC9FB4006F2F4A /* ViewController.m */,
+				F9F8732A1BAC9FB4006F2F4A /* Main.storyboard */,
+				F9F8732D1BAC9FB4006F2F4A /* Assets.xcassets */,
+				F9F8732F1BAC9FB4006F2F4A /* LaunchScreen.storyboard */,
+				F9F873321BAC9FB4006F2F4A /* Info.plist */,
+				F9F873211BAC9FB4006F2F4A /* Supporting Files */,
+			);
+			path = tinderlab;
+			sourceTree = "<group>";
+		};
+		F9F873211BAC9FB4006F2F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9F873221BAC9FB4006F2F4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9F8733A1BAC9FB4006F2F4A /* tinderlabTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F8733B1BAC9FB4006F2F4A /* tinderlabTests.m */,
+				F9F8733D1BAC9FB4006F2F4A /* Info.plist */,
+			);
+			path = tinderlabTests;
+			sourceTree = "<group>";
+		};
+		F9F873451BAC9FB4006F2F4A /* tinderlabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F873461BAC9FB4006F2F4A /* tinderlabUITests.m */,
+				F9F873481BAC9FB4006F2F4A /* Info.plist */,
+			);
+			path = tinderlabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F8731D1BAC9FB4006F2F4A /* tinderlab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F8734B1BAC9FB4006F2F4A /* Build configuration list for PBXNativeTarget "tinderlab" */;
+			buildPhases = (
+				F9F8731A1BAC9FB4006F2F4A /* Sources */,
+				F9F8731B1BAC9FB4006F2F4A /* Frameworks */,
+				F9F8731C1BAC9FB4006F2F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tinderlab;
+			productName = tinderlab;
+			productReference = F9F8731E1BAC9FB4006F2F4A /* tinderlab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F873361BAC9FB4006F2F4A /* tinderlabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F8734E1BAC9FB4006F2F4A /* Build configuration list for PBXNativeTarget "tinderlabTests" */;
+			buildPhases = (
+				F9F873331BAC9FB4006F2F4A /* Sources */,
+				F9F873341BAC9FB4006F2F4A /* Frameworks */,
+				F9F873351BAC9FB4006F2F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F873391BAC9FB4006F2F4A /* PBXTargetDependency */,
+			);
+			name = tinderlabTests;
+			productName = tinderlabTests;
+			productReference = F9F873371BAC9FB4006F2F4A /* tinderlabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F873411BAC9FB4006F2F4A /* tinderlabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F873511BAC9FB4006F2F4A /* Build configuration list for PBXNativeTarget "tinderlabUITests" */;
+			buildPhases = (
+				F9F8733E1BAC9FB4006F2F4A /* Sources */,
+				F9F8733F1BAC9FB4006F2F4A /* Frameworks */,
+				F9F873401BAC9FB4006F2F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F873441BAC9FB4006F2F4A /* PBXTargetDependency */,
+			);
+			name = tinderlabUITests;
+			productName = tinderlabUITests;
+			productReference = F9F873421BAC9FB4006F2F4A /* tinderlabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F873161BAC9FB4006F2F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Amit Agarwal";
+				TargetAttributes = {
+					F9F8731D1BAC9FB4006F2F4A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F357PZ349Y;
+					};
+					F9F873361BAC9FB4006F2F4A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F357PZ349Y;
+						TestTargetID = F9F8731D1BAC9FB4006F2F4A;
+					};
+					F9F873411BAC9FB4006F2F4A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = F357PZ349Y;
+						TestTargetID = F9F8731D1BAC9FB4006F2F4A;
+					};
+				};
+			};
+			buildConfigurationList = F9F873191BAC9FB4006F2F4A /* Build configuration list for PBXProject "tinderlab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F873151BAC9FB4006F2F4A;
+			productRefGroup = F9F8731F1BAC9FB4006F2F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F8731D1BAC9FB4006F2F4A /* tinderlab */,
+				F9F873361BAC9FB4006F2F4A /* tinderlabTests */,
+				F9F873411BAC9FB4006F2F4A /* tinderlabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F8731C1BAC9FB4006F2F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F873311BAC9FB4006F2F4A /* LaunchScreen.storyboard in Resources */,
+				F9F8732E1BAC9FB4006F2F4A /* Assets.xcassets in Resources */,
+				F9F8732C1BAC9FB4006F2F4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F873351BAC9FB4006F2F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F873401BAC9FB4006F2F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F8731A1BAC9FB4006F2F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F873291BAC9FB4006F2F4A /* ViewController.m in Sources */,
+				F9F873261BAC9FB4006F2F4A /* AppDelegate.m in Sources */,
+				F9F873231BAC9FB4006F2F4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F873331BAC9FB4006F2F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F8733C1BAC9FB4006F2F4A /* tinderlabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F8733E1BAC9FB4006F2F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F873471BAC9FB4006F2F4A /* tinderlabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F873391BAC9FB4006F2F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F8731D1BAC9FB4006F2F4A /* tinderlab */;
+			targetProxy = F9F873381BAC9FB4006F2F4A /* PBXContainerItemProxy */;
+		};
+		F9F873441BAC9FB4006F2F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F8731D1BAC9FB4006F2F4A /* tinderlab */;
+			targetProxy = F9F873431BAC9FB4006F2F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9F8732A1BAC9FB4006F2F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F8732B1BAC9FB4006F2F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9F8732F1BAC9FB4006F2F4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F873301BAC9FB4006F2F4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F873491BAC9FB4006F2F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9F8734A1BAC9FB4006F2F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F8734C1BAC9FB4006F2F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinderlab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.tinderlab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9F8734D1BAC9FB4006F2F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinderlab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.tinderlab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9F8734F1BAC9FB4006F2F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tinderlabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.tinderlabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinderlab.app/tinderlab";
+			};
+			name = Debug;
+		};
+		F9F873501BAC9FB4006F2F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tinderlabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.tinderlabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinderlab.app/tinderlab";
+			};
+			name = Release;
+		};
+		F9F873521BAC9FB4006F2F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tinderlabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.tinderlabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tinderlab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F9F873531BAC9FB4006F2F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tinderlabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.tinderlabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tinderlab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F873191BAC9FB4006F2F4A /* Build configuration list for PBXProject "tinderlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F873491BAC9FB4006F2F4A /* Debug */,
+				F9F8734A1BAC9FB4006F2F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F8734B1BAC9FB4006F2F4A /* Build configuration list for PBXNativeTarget "tinderlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F8734C1BAC9FB4006F2F4A /* Debug */,
+				F9F8734D1BAC9FB4006F2F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9F8734E1BAC9FB4006F2F4A /* Build configuration list for PBXNativeTarget "tinderlabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F8734F1BAC9FB4006F2F4A /* Debug */,
+				F9F873501BAC9FB4006F2F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9F873511BAC9FB4006F2F4A /* Build configuration list for PBXNativeTarget "tinderlabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F873521BAC9FB4006F2F4A /* Debug */,
+				F9F873531BAC9FB4006F2F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F873161BAC9FB4006F2F4A /* Project object */;
+}

@@ -16,6 +16,8 @@
 		F9F8733C1BAC9FB4006F2F4A /* tinderlabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F8733B1BAC9FB4006F2F4A /* tinderlabTests.m */; };
 		F9F873471BAC9FB4006F2F4A /* tinderlabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F873461BAC9FB4006F2F4A /* tinderlabUITests.m */; };
 		F9F873561BACA17A006F2F4A /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F873551BACA17A006F2F4A /* CardsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F9F873581BACAAD3006F2F4A /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9F873571BACAAD3006F2F4A /* DraggableImageView.xib */; settings = {ASSET_TAGS = (); }; };
+		F9F8735B1BACAB4C006F2F4A /* DraggableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F8735A1BACAB4C006F2F4A /* DraggableImageView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		F9F873481BAC9FB4006F2F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9F873541BACA17A006F2F4A /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
 		F9F873551BACA17A006F2F4A /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		F9F873571BACAAD3006F2F4A /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		F9F873591BACAB4C006F2F4A /* DraggableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableImageView.h; sourceTree = "<group>"; };
+		F9F8735A1BACAB4C006F2F4A /* DraggableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +114,15 @@
 				F9F873271BAC9FB4006F2F4A /* ViewController.h */,
 				F9F873281BAC9FB4006F2F4A /* ViewController.m */,
 				F9F8732A1BAC9FB4006F2F4A /* Main.storyboard */,
+				F9F873571BACAAD3006F2F4A /* DraggableImageView.xib */,
 				F9F8732D1BAC9FB4006F2F4A /* Assets.xcassets */,
 				F9F8732F1BAC9FB4006F2F4A /* LaunchScreen.storyboard */,
 				F9F873321BAC9FB4006F2F4A /* Info.plist */,
 				F9F873211BAC9FB4006F2F4A /* Supporting Files */,
 				F9F873541BACA17A006F2F4A /* CardsViewController.h */,
 				F9F873551BACA17A006F2F4A /* CardsViewController.m */,
+				F9F873591BACAB4C006F2F4A /* DraggableImageView.h */,
+				F9F8735A1BACAB4C006F2F4A /* DraggableImageView.m */,
 			);
 			path = tinderlab;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			files = (
 				F9F873311BAC9FB4006F2F4A /* LaunchScreen.storyboard in Resources */,
 				F9F8732E1BAC9FB4006F2F4A /* Assets.xcassets in Resources */,
+				F9F873581BACAAD3006F2F4A /* DraggableImageView.xib in Resources */,
 				F9F8732C1BAC9FB4006F2F4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +291,7 @@
 				F9F873291BAC9FB4006F2F4A /* ViewController.m in Sources */,
 				F9F873261BAC9FB4006F2F4A /* AppDelegate.m in Sources */,
 				F9F873231BAC9FB4006F2F4A /* main.m in Sources */,
+				F9F8735B1BACAB4C006F2F4A /* DraggableImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

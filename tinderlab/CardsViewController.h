@@ -10,5 +10,5 @@
 
 @interface CardsViewController : UIViewController
 
-@property CGPoint cardInitialCenter;
+
 @end

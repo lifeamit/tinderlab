@@ -21,47 +21,10 @@
         <!--Cards View Controller-->
         <scene sceneID="o53-DR-afq">
             <objects>
-                <viewController id="w6l-0C-95a" customClass="CardsViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZG2-Iy-ZPa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_bar" id="jPM-3T-n8h">
-                                <rect key="frame" x="0.0" y="9" width="320" height="82"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="action_buttons" id="cD5-jN-2PV">
-                                <rect key="frame" x="0.0" y="426" width="320" height="142"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ryan" id="QUq-qq-KVp">
-                                <rect key="frame" x="37" y="159" width="247" height="249"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Txd-Nc-ki1" appends="YES" id="ys9-1e-WvO"/>
-                                </connections>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <connections>
-                        <outlet property="cardView" destination="QUq-qq-KVp" id="fkf-bF-kpJ"/>
-                    </connections>
-                </viewController>
+                <viewController id="w6l-0C-95a" customClass="CardsViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZD-Xn-2Lu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="Txd-Nc-ki1">
-                    <connections>
-                        <action selector="cardDragged:" destination="w6l-0C-95a" id="AAi-UR-eOe"/>
-                    </connections>
-                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="437" y="378"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="action_buttons" width="320" height="108"/>
-        <image name="nav_bar" width="320" height="65"/>
-        <image name="ryan" width="224" height="257"/>
-    </resources>
 </document>

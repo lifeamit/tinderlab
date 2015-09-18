@@ -7,9 +7,10 @@
 //
 
 #import "CardsViewController.h"
-
+#import "DraggableImageView.h"
 @interface CardsViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *cardView;
+
+@property (nonatomic, strong) DraggableImageView *draggableView;
 
 @end
 
@@ -17,23 +18,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.draggableView = [[UINib nibWithNibName:@"DraggableImageView" bundle:nil] instantiateWithOwner:self options:nil][0];
+    
+    [self.view addSubview:self.draggableView];
+    
+//    self.view.addSubview(self.draggableView);
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    CGRect f = self.draggableView.frame;
+    f.size.width = self.view.bounds.size.width;
+        f.size.height = self.view.bounds.size.height;
+    self.draggableView.frame = f;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)cardDragged:(UIPanGestureRecognizer *)sender {
-    CGPoint point = [sender translationInView:self.cardView];
 
-    if (sender.state == UIGestureRecognizerStateBegan) {
-        self.cardInitialCenter = self.cardView.center;
-    } else if (sender.state == UIGestureRecognizerStateChanged) {
-        self.cardView.center = CGPointMake(self.cardInitialCenter.x + point.x, self.cardInitialCenter.y + point.y);
-    } else if (sender.state == UIGestureRecognizerStateEnded) {
-        NSLog(@"Gesture ended at: %f, %f", point.x, point.y);
-    }
-}
 
 @end

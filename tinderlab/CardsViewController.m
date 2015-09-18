@@ -11,6 +11,7 @@
 @interface CardsViewController ()
 
 @property (nonatomic, strong) DraggableImageView *draggableView;
+@property (weak, nonatomic) IBOutlet UIImageView *cardImageView;
 
 @end
 
@@ -40,5 +41,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) onCardTap {
+
+//    [self performSegueWithIdentifier:@"ShowMainMenu" sender:self];
+
+}
+
+- (IBAction)onCardTap:(UITapGestureRecognizer *)sender {
+    NSLog(@"card tapped");
+        [self performSegueWithIdentifier:@"com.yahoo.profilecontroller" sender:self];
+    
+}
 
 @end

@@ -54,6 +54,10 @@
     
 }
 
+
+
+
+
 - (IBAction)onCardDrag:(UIPanGestureRecognizer *)sender {
 //    NSLog(@"image dragged");
     CGPoint point = [sender translationInView:self.cardImageView];
@@ -65,5 +69,7 @@
     } else if (sender.state == UIGestureRecognizerStateEnded) {
         NSLog(@"Gesture ended at: %f, %f", point.x, point.y);
     }
+    
+
 }
 @end

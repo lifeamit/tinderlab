@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="w6l-0C-95a">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="LSH-dg-Ffa">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
@@ -21,10 +21,77 @@
         <!--Cards View Controller-->
         <scene sceneID="o53-DR-afq">
             <objects>
-                <viewController id="w6l-0C-95a" customClass="CardsViewController" sceneMemberID="viewController"/>
+                <viewController id="w6l-0C-95a" customClass="CardsViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1gV-Fe-jca"/>
+                    <connections>
+                        <segue destination="JcU-Q8-u6V" kind="modal" identifier="com.yahoo.profilecontroller" id="yNO-tn-fmr"/>
+                    </connections>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZD-Xn-2Lu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969" y="378"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="zJC-Qh-1Ug">
+            <objects>
+                <viewController id="JcU-Q8-u6V" customClass="ProfileViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YQw-uI-evP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ryan" id="DZw-JF-oJm">
+                                <rect key="frame" x="40" y="146" width="252" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav_bar2" id="Z7B-Qi-MVy">
+                                <rect key="frame" x="20" y="10" width="294" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="MUm-io-iw0">
+                                <rect key="frame" x="14" y="33" width="62" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gHL-4w-PPn" appends="YES" id="xMo-n0-GXE"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="doneButtonView" destination="MUm-io-iw0" id="Zbz-Vx-K7e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V1v-bb-d9L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gHL-4w-PPn">
+                    <connections>
+                        <action selector="onDoneTap:" destination="JcU-Q8-u6V" id="odI-bt-VZ9"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1429" y="378"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="c9d-RC-SlV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LSH-dg-Ffa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YHi-rJ-ZJx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="w6l-0C-95a" kind="relationship" relationship="rootViewController" id="XcK-9l-u4K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84W-Aa-EZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="437" y="378"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="nav_bar2" width="320" height="65"/>
+        <image name="ryan" width="224" height="257"/>
+    </resources>
 </document>

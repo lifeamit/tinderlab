@@ -18,6 +18,7 @@
 		F9F873561BACA17A006F2F4A /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F873551BACA17A006F2F4A /* CardsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F9F873581BACAAD3006F2F4A /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9F873571BACAAD3006F2F4A /* DraggableImageView.xib */; settings = {ASSET_TAGS = (); }; };
 		F9F8735B1BACAB4C006F2F4A /* DraggableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F8735A1BACAB4C006F2F4A /* DraggableImageView.m */; settings = {ASSET_TAGS = (); }; };
+		F9F8735E1BACBA78006F2F4A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F8735D1BACBA78006F2F4A /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F9F873571BACAAD3006F2F4A /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
 		F9F873591BACAB4C006F2F4A /* DraggableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableImageView.h; sourceTree = "<group>"; };
 		F9F8735A1BACAB4C006F2F4A /* DraggableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableImageView.m; sourceTree = "<group>"; };
+		F9F8735C1BACBA78006F2F4A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F9F8735D1BACBA78006F2F4A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				F9F873551BACA17A006F2F4A /* CardsViewController.m */,
 				F9F873591BACAB4C006F2F4A /* DraggableImageView.h */,
 				F9F8735A1BACAB4C006F2F4A /* DraggableImageView.m */,
+				F9F8735C1BACBA78006F2F4A /* ProfileViewController.h */,
+				F9F8735D1BACBA78006F2F4A /* ProfileViewController.m */,
 			);
 			path = tinderlab;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				F9F873291BAC9FB4006F2F4A /* ViewController.m in Sources */,
 				F9F873261BAC9FB4006F2F4A /* AppDelegate.m in Sources */,
 				F9F873231BAC9FB4006F2F4A /* main.m in Sources */,
+				F9F8735E1BACBA78006F2F4A /* ProfileViewController.m in Sources */,
 				F9F8735B1BACAB4C006F2F4A /* DraggableImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

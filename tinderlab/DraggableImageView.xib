@@ -4,7 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardsViewController"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardsViewController">
+            <connections>
+                <outlet property="cardImageView" destination="UbW-ib-or3" id="gew-Zg-BHS"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleAspectFit" id="iN0-l3-epB" customClass="DraggableImageView">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -24,6 +28,7 @@
                     <gestureRecognizers/>
                     <connections>
                         <outletCollection property="gestureRecognizers" destination="ceS-QO-NSY" appends="YES" id="fkn-AK-ouj"/>
+                        <outletCollection property="gestureRecognizers" destination="YlC-cH-hH7" appends="YES" id="lTC-g0-lM9"/>
                     </connections>
                 </imageView>
             </subviews>
@@ -38,6 +43,11 @@
                 <action selector="onCardDrag:" destination="iN0-l3-epB" id="Ma6-zB-rDN"/>
             </connections>
         </panGestureRecognizer>
+        <tapGestureRecognizer id="YlC-cH-hH7">
+            <connections>
+                <action selector="onCardTap:" destination="-1" id="QgB-77-YyQ"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="action_buttons" width="320" height="108"/>
